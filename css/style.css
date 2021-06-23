@@ -1,0 +1,488 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #a38dcc;
+  padding: 60px 16% 0 16%;
+}
+.header .nav {
+  margin-right: 5%;
+}
+.header .nav .nav-content {
+  display: flex;
+  justify-content: flex-end;
+}
+.header .nav .nav-content .nav-item {
+  margin-left: 40px;
+  color: white;
+  font-size: 14px;
+  font-family: "Montserrat";
+  cursor: pointer;
+  font-weight: 600;
+  padding-bottom: 13px;
+}
+.header .nav .nav-content .active, .header .nav .nav-content .nav-item:hover {
+  border-bottom: 2px solid white;
+}
+.header .header-content {
+  text-align: center;
+  margin: 80px 0;
+}
+.header .header-content h1 {
+  font-size: 60px;
+  font-family: "Sintony";
+  color: white;
+  font-weight: 100;
+  margin: 0;
+}
+.header .header-content p {
+  font-size: 19px;
+  font-family: "Sintony";
+  color: #d5c9ea;
+}
+.header .header-content button {
+  font-family: "Nexa";
+  font-size: 16px;
+  color: white;
+  padding: 20px 80px;
+  border: gainsboro;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.header .header-content button {
+  background: linear-gradient(135deg, #fff 50%, #4ddadd 50%);
+  position: relative;
+}
+.header .header-content button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(135deg, #4ddadd 50%, #fff 50%);
+  z-index: -1;
+}
+.header .header-content button, .header .header-content button:after {
+  background-size: 300%;
+  background-position: 100%;
+  transition: 0.8s;
+}
+.header .header-content button:hover, .header .header-content button:hover:after {
+  background-position: 0;
+  color: black;
+}
+.header .image {
+  text-align: center;
+}
+.header .image img {
+  width: 90%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.main .main-content-first {
+  padding: 60px 16% 150px 16%;
+}
+.main .main-content-first .button {
+  text-align: center;
+}
+.main .main-content-first .button button {
+  font-size: 16px;
+  font-family: "NexaBold";
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.main .main-content-first .button .button-started {
+  color: white;
+  font-weight: 600;
+  padding: 25px 60px;
+  border: 1px solid gainsboro;
+}
+.main .main-content-first .button .button-started {
+  background: linear-gradient(135deg, #fff 50%, #b6a1dd 50%);
+  position: relative;
+}
+.main .main-content-first .button .button-started:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(135deg, #b6a1dd 50%, #fff 50%);
+  z-index: -1;
+}
+.main .main-content-first .button .button-started, .main .main-content-first .button .button-started:after {
+  background-size: 300%;
+  background-position: 100%;
+  transition: 0.8s;
+}
+.main .main-content-first .button .button-started:hover, .main .main-content-first .button .button-started:hover:after {
+  background-position: 0;
+  color: black;
+}
+.main .main-content-first .button .button-try {
+  color: #8080808f;
+  font-weight: 600;
+  padding: 24px 50px;
+  border: 2px solid gainsboro;
+}
+.main .main-content-first .button .button-try {
+  background: linear-gradient(135deg, #b6a1dd 50%, #fff 50%);
+  position: relative;
+}
+.main .main-content-first .button .button-try:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(135deg, #fff 50%, #b6a1dd 50%);
+  z-index: -1;
+}
+.main .main-content-first .button .button-try, .main .main-content-first .button .button-try:after {
+  background-size: 300%;
+  background-position: 100%;
+  transition: 0.8s;
+}
+.main .main-content-first .button .button-try:hover, .main .main-content-first .button .button-try:hover:after {
+  background-position: 0;
+  color: white;
+}
+.main .main-content-first .content {
+  text-align: center;
+  margin-top: 80px;
+  padding: 0 120px;
+}
+.main .main-content-first .content h2 {
+  font-size: 35px;
+  font-family: "Sintony";
+  color: #a3adb5;
+}
+.main .main-content-first .content p {
+  color: #a3adb5;
+  font-family: "NexaRegular";
+  font-size: 20px;
+  line-height: 2;
+}
+.main .main-content-second {
+  padding: 100px 14% 300px 14%;
+  background-color: #f4f4f2;
+  position: relative;
+  overflow: hidden;
+}
+.main .main-content-second .content .col-group {
+  display: flex;
+}
+.main .main-content-second .content .col-group .col {
+  flex: 1;
+}
+.main .main-content-second .content .col-group .col h2 {
+  font-size: 35px;
+  font-family: "Sintony";
+  color: #a3adb5;
+  font-weight: 100;
+}
+.main .main-content-second .content .col-group .col p {
+  color: #a3adb5;
+  font-size: 16px;
+  font-family: "Montserrat";
+  line-height: 2;
+}
+.main .main-content-second .content .col-group .col-second {
+  flex: 0.3;
+}
+.main .main-content-second .content button {
+  background-color: #b6a1dd;
+  color: white;
+  font-weight: 600;
+  padding: 20px 35px;
+  border: 3px solid gainsboro;
+  font-family: "Nexa";
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.main .main-content-second .content button {
+  background: linear-gradient(135deg, #f4f4f2 50%, #b6a1dd 50%);
+  position: relative;
+}
+.main .main-content-second .content button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(135deg, #b6a1dd 50%, #f4f4f2 50%);
+  z-index: -1;
+}
+.main .main-content-second .content button, .main .main-content-second .content button:after {
+  background-size: 300%;
+  background-position: 100%;
+  transition: 0.8s;
+}
+.main .main-content-second .content button:hover, .main .main-content-second .content button:hover:after {
+  background-position: 0;
+  color: black;
+}
+.main .main-content-second img {
+  position: absolute;
+  width: 780px;
+  left: 32%;
+  bottom: -330px;
+}
+.main .main-content-third {
+  padding: 70px 16% 70px 16%;
+  background-color: #a38dcc;
+  margin-top: 0;
+}
+.main .main-content-third .content {
+  text-align: center;
+  padding: 0 8%;
+}
+.main .main-content-third .content h2 {
+  font-size: 35px;
+  font-family: "Sintony";
+  color: white;
+  font-weight: 100;
+}
+.main .main-content-third .content p {
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: white;
+  line-height: 2;
+}
+.main .main-content-third .button {
+  text-align: center;
+  padding: 0 8%;
+  margin-top: 50px;
+}
+.main .main-content-third .button .button-money {
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  color: white;
+  background-color: #40c2c5;
+  border: gainsboro;
+  padding: 21px 80px;
+  margin-right: 20px;
+  cursor: pointer;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+.main .main-content-third .button .button-money:hover {
+  background-color: transparent;
+  opacity: 0.7;
+}
+.main .main-content-third .button .button-account {
+  font-size: 16px;
+  font-family: "Nexa";
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 22px 40px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.main .main-content-third .button .button-account:hover {
+  opacity: 0.7;
+}
+.main .main-content-fourth {
+  padding: 100px 10% 100px 10%;
+  background-color: #f4f4f2;
+}
+.main .main-content-fourth .content {
+  display: flex;
+  justify-content: space-around;
+}
+.main .main-content-fourth .content .col {
+  text-align: center;
+  line-height: 2;
+  padding: 0 50px;
+}
+.main .main-content-fourth .content .col h2 {
+  font-size: 30px;
+  font-family: "Sintony";
+  color: #a3adb5;
+  font-weight: 100;
+}
+.main .main-content-fourth .content .col p {
+  color: #a3adb5;
+  font-size: 15px;
+  font-family: "Montserrat";
+}
+.main .main-content-fourth .content .col span {
+  color: #977ec5;
+  font-size: 15px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  cursor: pointer;
+}
+.main .main-content-fourth .content .col span:hover {
+  border-bottom: 2px solid #977ec5;
+}
+.main .main-content-fifth {
+  padding: 70px 16% 70px 16%;
+}
+.main .main-content-fifth .content {
+  text-align: center;
+}
+.main .main-content-fifth .content h2 {
+  font-size: 35px;
+  font-family: "Sintony";
+  color: #8e75bd;
+  font-weight: 100;
+  margin: 0;
+}
+.main .main-content-fifth .content p {
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: #8e75bd;
+}
+.main .main-content-fifth .option {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 50px;
+}
+.main .main-content-fifth .option .option-element {
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  width: 31%;
+  position: relative;
+  cursor: pointer;
+}
+.main .main-content-fifth .option .option-element h2 {
+  background: linear-gradient(to bottom, #9981c6, #8f76bf);
+  margin: 0;
+  padding: 20px 0;
+  color: white;
+  font-size: 20px;
+  font-family: "NexaHeavy";
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.main .main-content-fifth .option .option-element .option-description {
+  color: #8c8c8c;
+  font-size: 16px;
+  font-family: "Nexa";
+}
+.main .main-content-fifth .option .option-element .option-price {
+  color: #40c2c5;
+  font-size: 40px;
+  font-family: "Nexa";
+  position: relative;
+  font-weight: 600;
+}
+.main .main-content-fifth .option .option-element .option-price span {
+  font-size: 18px;
+  color: #a3adb5;
+  position: absolute;
+  top: 20px;
+  margin-left: 5px;
+}
+.main .main-content-fifth .option .option-element .option-features {
+  padding: 0 10%;
+  margin-bottom: 100px;
+}
+.main .main-content-fifth .option .option-element .option-features p {
+  color: #a3adb5;
+  font-size: 16px;
+  font-family: "Nexa";
+  padding-top: 15px;
+  border-top: 1px solid gainsboro;
+}
+.main .main-content-fifth .option .option-element button {
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 30%;
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  border-radius: 3px;
+  cursor: pointer;
+}
+.main .main-content-fifth .option .option-element button:hover {
+  opacity: 0.7;
+}
+.main .main-content-fifth .option .option-element:hover {
+  box-shadow: 5px 10px 18px #8888;
+}
+.main .main-content-fifth .option .option-free button {
+  background: transparent;
+  color: #8f76bf;
+  border: 1px solid #8f76bf;
+}
+.main .main-content-fifth .option .option-subscription button {
+  background: #8f76bf;
+  color: white;
+  border: unset;
+}
+.main .main-content-fifth .users {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.main .main-content-fifth .users .user-free {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+.main .main-content-fifth .users .user-free p {
+  color: #a3adb5;
+  font-size: 18px;
+  font-family: "Sintony";
+}
+.main .main-content-fifth .users .user-free span {
+  color: #8e75bd;
+  font-size: 18px;
+  font-family: "Sintony";
+}
+.main .main-content-fifth .users .user-subscription {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+.main .main-content-fifth .users .user-subscription p {
+  color: #a3adb5;
+  font-size: 18px;
+  font-family: "Sintony";
+}
+.main .main-content-fifth .users .user-subscription span {
+  color: #8e75bd;
+  font-size: 18px;
+  font-family: "Sintony";
+}
+
+.footer {
+  border-top: 4px solid #8f76bf;
+  margin-top: 100px;
+}
+.footer .footer-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 25%;
+}
+.footer .footer-content ul li {
+  list-style-type: none;
+  color: #a3adb5;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 2.5;
+  cursor: pointer;
+}
+.footer .footer-content ul li h2 {
+  font-size: 20px;
+  font-family: "Sintony";
+}
+.footer .footer-content ul li:hover {
+  color: gainsboro;
+}
+
+/*# sourceMappingURL=style.css.map */
