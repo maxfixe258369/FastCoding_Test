@@ -14,14 +14,26 @@
     <link href='https://fonts.googleapis.com/css?family=NexaRegular' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=NexaBold' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=NexaHeavy' rel='stylesheet'>
+
    
 
-
+    <script src="script.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header class="header">
+        <!-- Nav mobile -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Sign Up</a>
+            <a href="#">Log in</a>
+            <a href="#">Support</a>
+
+        </div>
+
+        <span class="nav-button" onclick="openNav()">&#9776;</span>
+
         <nav class="nav">
             <div class="nav-content">
                 <div class="nav-item active">Sign Up</div>
@@ -139,6 +151,12 @@
                     <button>SIGN UP</button>
                 </div>
 
+                <div class="user-free-mobile">
+                    <p>Join</p>&nbsp;
+                    <span>34,293</span>&nbsp;
+                    <p>users</p>
+                </div>
+
                 <div class="option-element option-subscription">
                     <h2>YEARLY SUBSCRIPTION</h2>
                     <p class="option-description">Great for giving it a try or the one off web designer</p>
@@ -154,6 +172,12 @@
                         <p>Something else</p>
                     </div>
                     <button>SIGN UP</button>
+                </div>
+
+                <div class="user-subscription-mobile">
+                    <p>Join</p>&nbsp;
+                    <span>1,828</span>&nbsp;
+                    <p>users</p>
                 </div>
             </div>
 
